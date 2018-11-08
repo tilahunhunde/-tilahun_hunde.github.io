@@ -1,0 +1,164 @@
+ body{
+	       font-family:Verdana, Geneva, sans-serif;
+		   size:12px;
+		   color:#333;
+		   background-color:#5eb3f6;
+		   background-image:url("images/site-bg.jpg"); 
+		   background-repeat:repeat-x;
+		   margin-bottom:30px;
+		   }
+	#container{
+	       background-color:white;
+		   margin-top:0px;
+		   width:900px;
+		   }
+    header{
+	        background-color:#036;
+			color:#FFF;
+			}
+	#top{
+	     color:white;
+		 background-color:#09F;
+		 }
+    nav li {
+	     display:inline;
+		 }
+	nav ul {
+                       list-style-type:none;
+                       margin:0px;
+                       padding:0px;
+			}
+	#top a:link {
+                  color:white;
+                  text-decoration:none;
+                  padding:10px;
+                  display:inline-block;
+                 }
+				 
+    nav a:visited {
+                  color:white;
+                  text-decoration:none;
+                 }
+     
+	#top a:hover {
+	              color:#036;
+				  background-color:#09F;
+				  text-decoration:none;
+				  }
+   
+    ul{
+	   margin-top:0px;
+	   margin-bottom:0px;
+	   }
+     #content{
+	         background-color:white;
+	         padding:10px;
+			 font-size:12px;
+			 overflow:auto;
+			 }
+	 #colOne{
+	     width:190px;		 
+	     float:left;
+	 }
+	  table#til {
+		       border-style:solid;
+			   border-width:1px;
+			   border-color:#999;
+			   border-collapse:collapse;
+			   width:180px;
+		  }
+		   table#til th  {
+		       border-style:solid;
+			   border-width:1px;
+			   border-color:grey;
+			   background-color:grey;
+               color:#FFFFFF;			   
+			   }
+		  table#til td {
+		       border-style:solid;
+			   border-width:1px;
+			   border-color:#999; 
+               padding:2px;
+               font-size:12px;			   
+		  }
+		 table#til tbody td{
+		       background-color:white;
+		  }
+		 table#til tfoot td{
+		      background-color:yellow;
+		  }
+	 #colTwo{width:670; float:right;}
+     h1{
+	       font-size:18px;
+		   color:#09F;
+	 }
+	 h2{
+	       font-size:16px;
+		   color:#036;
+	   }
+	 h3{
+	       font-size:14px;
+		   color:#333;
+		}
+      #nest1 {
+		  width:450px;
+		  float:left;
+		 }
+	  #nest2 {
+		  width:220px;
+		  float:right;
+		  margin-top:50px;
+		  margin-left:10px
+		  }
+	footer{
+	background-color:#036;
+	width:900px;
+	height:50px;
+	overflow:auto;
+	clear:both;
+	}	
+	
+     aside li{display:inline;}
+	 aside ul{list-style-type:none; margin:0px; padding:0px;}
+	 #footernav a:link {
+                  color:white;
+                  text-decoration:none;
+                  padding:15px 5px;
+                  display:inline-block;
+				  font-size:12px
+                 }
+	 #footernav a:visited{
+	            color:white;
+	 }
+     #footernav a:hover{
+	           color:#09F;
+	           background-color:#036;
+			   }
+     #footernav{width:500;float:left;color:white;}
+	 #footercopyright{width:200; float:right; color:white; padding:15;;font-size:12;}
+			   #contactform label {
+	   width:120px;
+	   display:inline-block;
+	   float:left;
+	  }
+	#contactform label {
+	   width:140px;
+	   display:inline-block;
+	   float:left;
+	  }
+	  #contactform input [type=text] {
+	      padding:10px;
+		  width:300px;
+	   }
+	    #contactform input [type=email] {
+	      padding:10px;
+         }
+	  #contactform select {
+	      padding:0px;
+	  } 
+	   #contactform textarea {
+	      padding:10px;
+	  }
+	  #contactform button {
+	     margin-left:140px;
+	  }
